@@ -1,0 +1,52 @@
+.venv/
+backend/venv/
+backend/venv_test/
+frontend-clean
+# Dependencies (all locations)
+**/node_modules/
+**/.pnp
+**/.pnp.js
+
+# Build outputs
+**/.next/
+**/dist/
+**/build/
+**/out/
+
+# Cache directories
+**/.pytest_cache/
+**/.cache/
+**/.npm/
+**/.eslintcache
+
+# OS generated files
+.DS_Store
+Thumbs.db
+*.log
+
+# IDE and editor configs
+.vscode/
+.claude/
+.kiro/steering/
+# Keep .kiro/specs/ and .kiro/settings/ but ignore .kiro/steering/
+
+# Environment files (local configs)
+.env.local
+**/.env.local
+
+# Auto-generated documentation
+*_ANALYSIS.md
+*_PLAN.md
+*_GUIDE.md
+*_REPORT.md
+*_CHECKLIST.md
+*_STEPS.md
+MCP_*.md
+DEPLOYMENT_*.md
+AUTONOMOUS_*.md
+HYBRID_*.md
+MASTER_*.md
+MINIMAL_*.md
+PRODUCTION_*.md
+COST_*.md
+/frontend/spec-kit-tool
